@@ -1,5 +1,5 @@
-# Groove server
-The Groove server is a client-server project employing BSD sockets for communication. The server is developed in C, while the client is built in Kotlin for Android devices. Communication is executed through combination of UDP protocol, utilized for music streaming, and TCP protocol, responsible for handling client requests and providing necessary data like the song queue.
+# Music player BSD
+Music player BSD is a client-server project employing BSD sockets for communication. The server is developed in C, while the client is built in Kotlin for Android devices. Communication is executed through combination of UDP protocol, utilized for music streaming, and TCP protocol, responsible for handling client requests and providing necessary data like the song queue.
 
 ## Song streaming
 The song is streamed on a separate thread using a UDP multicast socket to a **`MULTICAST_GROUP`** on **`MULTICAST_PORT`**.
